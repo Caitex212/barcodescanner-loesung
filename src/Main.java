@@ -9,7 +9,7 @@ public class Main {
     private Serial serial;
 
     public Main() {
-        serial = new Serial("ttyACM0", 9600, 8, 1, 0);
+        serial = new Serial("COM1", 9600, 8, 1, 0);
     }
 
     public String scanneBarcode() {
